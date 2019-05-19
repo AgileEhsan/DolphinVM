@@ -7,7 +7,11 @@ Now mapped onto the Standard Template Library string class (BSM, Sep 2002)
 */
 #pragma once
 
+#include <iostream>
+#include <fstream>
+#include <istream>
 #include <string>
+
 typedef std::basic_string<uint8_t, std::char_traits<uint8_t>, std::allocator<uint8_t>> Str;
 
 #include "..\VMPointers.h"
